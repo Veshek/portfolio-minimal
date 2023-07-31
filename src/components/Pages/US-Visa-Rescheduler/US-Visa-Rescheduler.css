@@ -1,0 +1,93 @@
+
+.USVisaRescheduler-Title{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2.USVisaRescheduler-Selenium {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin:0 auto;
+    width:75%;
+}
+
+div.USVisaRescheduler-TitleImage {
+    content: url("./assets/EmbassyWebpage.png");
+    max-width: 30%;
+    margin: 2rem auto 0;
+}
+
+div.USVisaRescheduler-SeleniumLogo {
+    content: url("./assets/cropped-logo-mini.png");
+    width: 8rem;
+    margin: 0 auto 2rem;
+}
+
+div.USVisaRescheduler-PollingDiagram {
+    content : url("./assets/Polling.png");
+    width :50%;
+    margin: 1rem auto
+}
+
+div.USVisaRescheduler-DataProcessingImage {
+    content : url("./assets/DataProcessing.png");
+    width : 50%;
+    margin : 1rem auto
+}
+
+
+div.WebScraping-Images {
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.WebScraping-Image {
+    width: 8rem;
+    padding: 1rem;
+}
+
+div.Webscraping-DevToolsLogo {
+    content: url("./assets/chrome_devtools_browser_logo_icon_153005.png");
+}
+
+div.Webscraping-HtmlLogo {
+    content: url("./assets/logo_html.png");
+}
+
+div.USVisaRescheduler-FutureImprovementsDiagram {
+    content: url("./assets/updater.png");
+    width : 70%;
+    margin :0 auto;
+}
+
+@media (max-width: 800px) {
+    div.USVisaRescheduler-TitleImage {
+        content: url("./assets/Embassy_of_the_United_States_of_America_seal.png");
+        max-width: 30%;
+    }
+
+    #Polling {
+        display: none;
+    }
+
+    #DataProcessing {
+        display: none;
+    }
+}
+
+
+
+
