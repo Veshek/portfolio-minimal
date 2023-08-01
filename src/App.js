@@ -10,7 +10,6 @@ import USVisaRescheduler from "./components/Pages/US-Visa-Rescheduler/US-Visa-Re
 
 const App = () => {
     const [{themeName}] = useContext(ThemeContext)
-
     return (
         <div id='top' className={`${themeName} app`}>
             <Header/>
