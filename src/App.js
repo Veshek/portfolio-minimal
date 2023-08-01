@@ -19,7 +19,7 @@ const App = () => {
                     <Route path='/VisaRescheduler' element={<USVisaRescheduler/>}/>
                 </Routes>
             <ScrollToTop/>
-            <Footer/>
+
         </div>
     )
 }
