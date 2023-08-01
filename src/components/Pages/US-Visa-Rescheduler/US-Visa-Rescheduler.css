@@ -86,6 +86,10 @@ div.USVisaRescheduler-FutureImprovementsDiagram {
     #DataProcessing {
         display: none;
     }
+
+    div.USVisaRescheduler-FutureImprovementsDiagram {
+        display: none;
+    }
 }
 
 
