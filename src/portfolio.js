@@ -19,34 +19,46 @@ const about = {
 }
 
 const projects = [
-    // projects can be added an removed
+    // projects can be added and removed
     // if there are no projects, Projects section won't show up
     {
         name: 'US Visa Rescheduling Bot',
         description:
-            'Wait times to get an appointment for a US Visa are incredibly long in Canada, ' +
-            'This bot regularly checks for open appointment slots and reschedules to earlier slots if available',
-        stack: ['Selenium', 'Python'],
+            'Built a bot to automatically book and schedule an appointment for a US Visitor Visa',
+        stack: ['Selenium', 'Python','PyCharm'],
         sourceCode: 'https://github.com/Veshek/US-B2-VisaRescheduler',
         livePreview: null,
         infoPage:'VisaRescheduler'
     },
     {
-        name: 'Quantum Tunneling Webpage',
+        name: 'Korotu Technology Co-op',
         description:
-            'This webpage is visual project to communicate the core concepts of Quantum Tunneling',
-        stack: ['SASS', 'TypeScript', 'React'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
+            'Initiated Dev-Ops transformation and facilitated migration of development environment to the cloud',
+        stack: ['Azure', 'Linux', 'Anaconda','Node'],
+        sourceCode: null,
+        livePreview: null,
+        infoPage:'Korotu'
     },
     {
-        name: 'Project 3',
+        name: 'UBC Astronomy Department Co-op',
         description:
-            'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-        stack: ['SASS', 'TypeScript', 'React'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
+            'Built automate the analysis of spectral-data collected from the Atacama Desert in Chile',
+        stack: ['ML', 'Sklearn', 'ML', 'Pandas'],
+        sourceCode: null,
+        livePreview: null,
+        infoPage: 'ExtragalacticCo-op'
     },
+    {
+        name: 'Custom ML Models',
+        description:
+            'Built Machine Learning models from first principles',
+        stack: ['ML', 'Knn', 'Ensemble', 'Pandas'],
+        sourceCode: null,
+        livePreview: null,
+        infoPage: 'ML'
+    },
+
+
 ]
 
 const skills = [
@@ -57,7 +69,6 @@ const skills = [
     'JavaScript',
     'TypeScript',
     'React',
-    'Redux',
     'Git',
     'CI/CD',
 ]

@@ -1,0 +1,68 @@
+.Korotu-Title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Korotu-LeftTitle {
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.Korotu-ProblemImage {
+    content: url("./assets/Problem-Dark.png");
+    margin: 1rem auto auto;
+    width: 30%;
+}
+
+.Korotu-SolutionImages {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: stretch;
+    margin-top: 2rem;
+}
+
+.Korotu-DevCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.Korotu-DevCard:hover {
+    transform: translateY(-7px);
+}
+
+.Korotu-DevCardTitle {
+    padding-top: 1rem;
+}
+
+.Korotu-LocalDevImage {
+    content: url("./assets/KorotuLocalDevProcess.png");
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.Korotu-CloudDevImage {
+    content: url("./assets/KorotuCloudDevProcess.png");
+    width: 100%;
+}
+
+.Korotu-OutcomesList {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Korotu-OutcomesItem {
+    margin: 0.5em;
+}
